@@ -8,10 +8,11 @@ This exercise contains common string methods and slicing
 
 Open your terminal and execute these commands.
 
-```bash
+```
 cd ~/work/repos
-git clone "<github-ssh-url>"
-cd string-slicing*
+# copy the Github ssh URL in the green code button
+git clone <github-ssh-url>
+cd <cloned-directory> 
 ```
 
 ## Implement
@@ -27,21 +28,18 @@ Choose the one of the files to implement:
 * Change your name, grade and course in the program header.
 * Follow each step in the comments of the Python code.
 * Write the code under each step.
-* Test your code by running it after each step.
+* Test your code by running the Python file after each step.
 
 ```bash
-# where <country> is america, thailand, or south_korea
-py "<country>.py"
-
 # example
 py america.py
 ```
 
 ### Redirect Output to Text File
 
-```bash
-py "<country>.py" > "<country>.txt"
+Redirect standard output into a text file using the `>` operator.
 
+```bash
 # example
 py america.py > america.txt
 ```
@@ -63,3 +61,4 @@ git commit -m 'decription of change'`
 # push changes to github
 git push
 ```
+
